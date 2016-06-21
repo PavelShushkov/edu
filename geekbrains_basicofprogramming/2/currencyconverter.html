@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework currency converter</title>
+</head>
+<body>
+<!--Конвертер валют. Программа хранит в переменных курс доллара и евро.
+Пользователь вводит сумму в рублях и получает информацию о том, сколько эта сумма составляет в долларах и евро. -->
+<script>
+    var max;
+    var rubkursusd=65;
+    var rubkurseur=73;
+    var rub=+prompt("Пользователь введите сумму в рублях. ");
+    if (rub==0)
+    {
+         alert("sum == 0");
+    }
+    else
+    {
+        alert("сумма составляет в долларах:"+ rub*rubkursusd +" и в евро:"+ rub*rubkurseur);
+    }
+</script>
+</body>
+</html>
