@@ -10,18 +10,12 @@
 Вывести на экран сообщение "При x="1" формула "y=(2)*x^2+(-1)*x+(4)", равна 5".
 При изменении переменных a, b и с вид формулы тоже должен меняться.-->
 <script>
-    var max;
-    var rubkursusd=65;
-    var rubkurseur=73;
-    var rub=+prompt("Пользователь введите сумму в рублях. ");
-    if (rub==0)
-    {
-         alert("sum == 0");
-    }
-    else
-    {
-        alert("сумма составляет в долларах:"+ rub*rubkursusd +" и в евро:"+ rub*rubkurseur);
-    }
+    var a = 2;
+    var b = -1;
+    var c = 4;
+    var x=+prompt("Пользователь введите сумму в рублях. ");
+    var y = a*x^2+b*x+c;
+    alert (y)
 </script>
 </body>
 </html>
